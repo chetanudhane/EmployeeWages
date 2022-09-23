@@ -6,7 +6,6 @@ public class EmployeeWages {
 	public static final int emp_Is_Parttime = 2;
 	public static final int fulltime_Working_Hrs = 8;
 	public static final int parttime_Working_Hrs = 4;
-	private static final int EMP_IS_PART_TIME_PRESENT = 0;
 
 //	public int checkAttendance() {
 //
