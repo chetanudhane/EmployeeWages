@@ -7,23 +7,6 @@ public class EmployeeWages {
 	public static final int fulltime_Working_Hrs = 8;
 	public static final int parttime_Working_Hrs = 4;
 
-//	public int checkAttendance() {
-//
-//		int working_Hrs;
-//		int empRandomCheck = (int) (Math.random() * 3);
-//		if (empRandomCheck == emp_Is_Fulltime) {
-//			System.out.println("Employee is Present Fulltime");
-//			working_Hrs = fulltime_Working_Hrs;
-//		} else if (empRandomCheck == emp_Is_Parttime) {
-//			System.out.println("Employee is Present Parttime");
-//			working_Hrs = parttime_Working_Hrs;
-//		} else {
-//			System.out.println("Employee is Absent");
-//			working_Hrs = 0;
-//		}
-//		return working_Hrs;
-//	}
-
 	public int switchCase() {
 
 		int working_Hrs;
@@ -36,7 +19,7 @@ public class EmployeeWages {
 			working_Hrs = fulltime_Working_Hrs;
 			break;
 
-		case EMP_IS_PART_TIME_PRESENT:
+		case emp_Is_Parttime:
 			System.out.println("Employee is part time Present");
 			working_Hrs = parttime_Working_Hrs;
 			break;
